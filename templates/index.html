@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Sentiment Analyser</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 id='heading'>Sentiment Analyser</h1>
+    <h5 id='subheading'>This web app uses ML to determine your tone from the text you enter!</h5>
+    <h6 id='githublink'>Click <a href='github.com/Jaseem001/sentiment-analyser' target=”_blank”>here</a> for the code</h6>
+    <form action='/' method="POST">
+        <textarea rows = '4' cols = '50' name = 'content' id = 'content' placeholder="Enter Your Text" class="ta"></textarea>
+        <input type="submit" value="Find Your Tone" id='find'>
+    </form>
+
+    {% if Sentiment == 0 %}
+    <h4>You sound Sad!</h4>
+    <img src="static\images\sad.jpg" alt="Angry Emoji">
+
+    {% elif Sentiment == 1 %}
+    <h4>You sound Neutral!</h4>
+    <img src="static\images\neutral.png" alt="Neutral Emoji">
+
+    {% elif Sentiment == 2 %}
+    <h4>You sound Happy!</h4>
+    <img src="static\images\happy.png" alt="Happy Emoji">
+    {% endif %}
+
+{% endblock %}
