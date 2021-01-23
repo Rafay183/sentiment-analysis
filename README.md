@@ -2,9 +2,11 @@
 
 Demo: [Sentiment Analyser](https://sentimentanalysisnb.herokuapp.com)
 
-![Demo GIF](https://github.com/Jaseem001/Sentiment-Analyser/blob/main/static/videos/demo.gif)
-
 This web app uses uses a naive bayes model to predict the sentiment conveyed through a text. 
+
+<p align="center">
+  <img src='https://github.com/Jaseem001/Sentiment-Analyser/blob/main/static/videos/demo.gif'>
+</p>
 
 ## Dataset
 
@@ -16,4 +18,4 @@ The text was preprocessed to remove stopwords and html tags. Stemming was done u
 
 ## Deployment
 
-The web app was deployed on heroku using Flask. Check it out [here](https://sentimentanalysisnb.herokuapp.com)
+The web app was deployed on heroku using Flask. Check it out [here](https://sentimentanalysisnb.herokuapp.com).
