@@ -2,7 +2,7 @@
 
 Demo: [Sentiment Analyser](https://sentimentanalysisnb.herokuapp.com)
 
-![Demo GIF](https://github.com/Jaseem001/Sentiment-Analyser/blob/master/static/videos/demo.gif)
+![Demo GIF](https://github.com/Jaseem001/Sentiment-Analyser/blob/main/static/videos/demo.gif)
 
 This web app uses uses a naive bayes model to predict the sentiment conveyed through a text. 
 
