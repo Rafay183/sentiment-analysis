@@ -18,4 +18,4 @@ The text was preprocessed to remove stopwords and html tags. Stemming was done u
 
 ## Deployment
 
-The web app was deployed on heroku using Flask. Check it out [here](https://sentimentanalysisnb.herokuapp.com).
+The web app was deployed on heroku using Flask.
